@@ -1,0 +1,93 @@
+/* 
+    Created on : 22 Aug 2016
+    Author     : ivan lubis <ivan.z.lubis@gmail.com>
+*/
+
+.error {
+    color: red;
+}
+.no-padding {
+    padding: 0;
+}
+.no-margin {
+    margin: 0;
+}
+.pointer {
+	cursor: pointer;
+}
+.width100 {
+	width: 100%;
+}
+.langSwitch a.active {
+    color: #00ad60;
+}
+.wrap-search {
+	width: 100%;
+}
+.list-type-form li.active a {
+	color: #fff;
+}
+.prod.active img {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
+.coffee-main-desc p {
+    text-align: left;
+}
+.article-detail-content p {
+    line-height: 1.6em;
+}
+.article-detail-pop .article-title {
+    background-color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+}
+
+#culture {
+    background: #FFF url(../images/splash-coffee.jpg) no-repeat;
+    background-position: bottom left;
+}
+#culture .article {
+    background: #fbf4ec;
+}
+.grid-sizer { 
+    width: 32%; 
+}
+.splash-coffee {
+    background: none;
+}
+#products .tvc-desktop .tvc-item {
+    display: block;
+}
+#products .tab-wrap-product .prod-img {
+    z-index: 9999;
+    padding-left: 100px;
+    position: relative;
+}
+.tab-product .tab-pane .back-batik {
+    position: absolute;
+    z-index: 1;
+    margin-top: 12px;
+    width: 100%;
+}
+
+input.input-search::-webkit-input-placeholder {
+   color: #e5e5e5;
+}
+
+input.input-search:-moz-placeholder { /* Firefox 18- */
+   color: #e5e5e5;  
+}
+
+input.input-search::-moz-placeholder {  /* Firefox 19+ */
+   color: #e5e5e5;  
+}
+
+input.input-search:-ms-input-placeholder {  
+   color: #e5e5e5;  
+}
+.img-detail-product {
+    margin: 0 auto;
+    width: auto !important;
+}
